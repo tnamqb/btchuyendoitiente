@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Convert</title>
+</head>
+<body>
+    <form >
+        <div>
+            <label for="amount"><strong>Amount</strong></label>
+            <input type="text" name="amount" id="amount">
+        </div>
+      <div>
+        <label for="from"><strong>From Currency</strong></label>
+        <select name="from" id="from">
+            <option value="VietNam">VietNam</option>
+            <option value="USD">USD</option>
+        </select>
+      </div>
+       <div>
+        <label for="to" ><strong>To Currency</strong></label>
+        <select name="to" id="to">
+            <option value="USD">USD</option>
+            <option value="VietNam">VietNam</option>
+        </select>
+       </div>
+        <input type="submit" value="Convert" onclick="doConvert()" style="background-color: white;
+        border-radius: 10px; 
+        color:red;
+        padding: 10px 32px;
+        text-align: center;
+        margin: 20px 2px;
+        cursor: grab;"> 
+        <!--cursor: grab; thay doi thuoc tinh con tro chuot-->
+        <!--border-radius: 10px; bo tron goc-->
+    </form>
+    <script src="convert.js"></script>
+</body>
+</html>
